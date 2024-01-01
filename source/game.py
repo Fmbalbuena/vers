@@ -6,7 +6,6 @@ while True:
         version_index = 0
         vers = versions.version()
         if vers.version_0_0_0.run():
-            print("sd")
             version_index += 1
             if len(memory.version_order) >= version_index:
                 print("You have reached the lastest version.")
